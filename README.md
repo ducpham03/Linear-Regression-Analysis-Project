@@ -1,23 +1,19 @@
-# California Housing Prices Prediction: Final Project
+# Linear Regression Analysis Project: California Housing Prices Prediction
 
 
 ## Overview
 This project is developed as part of the MATH 372: Linear Regression Analysis final project. The objective is to create an end-to-end linear regression function that fits a model using techniques learned in class. The project uses multiple linear regression methods to predict housing prices in California. The primary goal is to help users select between predictive or explanatory models, using cross-validation and grid-search when necessary.
 
+The function will take a predictor matrix (or data frame) **X** and a continuous-valued response _y_ as inputs and will:
+- Preprocess data and handle missing observations
+- Develop a predictive model for y
+- Fit a parsimonious explanatory model that balances explanation and prediction
 ___________________
-The function will take a predictor matrix (or data frame) 
-𝑋
-X and a continuous-valued response 
-𝑦
-y as inputs and will:
 
-Preprocess data and handle missing observations
-Develop a predictive model for 
-𝑦
-y
-Fit a parsimonious explanatory model that balances explanation and prediction
 Dataset
 The dataset used in this project is from Kaggle's California Housing Prices dataset. It contains various housing features across districts in California, including attributes like median income, housing age, and proximity to the ocean.
+
+
 
 Dataset Source: Kaggle - California Housing Prices
 Objectives
