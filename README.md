@@ -4,7 +4,7 @@
 ## Overview
 This project is developed as part of the MATH 372: Linear Regression Analysis final project. The objective is to create an end-to-end linear regression function that fits a model using techniques learned in class. The project uses multiple linear regression methods to predict housing prices in California. The primary goal is to help users select between predictive or explanatory models, using cross-validation and grid-search when necessary.
 
-The function will take a predictor matrix (or data frame) **X** and a continuous-valued response _y_ as inputs and will:
+The function will take a predictor matrix (or data frame) **_X_** and a continuous-valued response **_y_** as inputs and will:
 - Preprocess data and handle missing observations
 - Develop a predictive model for y
 - Fit a parsimonious explanatory model that balances explanation and prediction
