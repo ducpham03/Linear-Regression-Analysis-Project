@@ -18,7 +18,7 @@ Dataset Source: Kaggle - California Housing Prices
 
 https://www.kaggle.com/datasets/camnugent/california-housing-prices
 
-
+___________________
 
 ### Objectives
 1. Data Preprocessing
@@ -42,12 +42,12 @@ https://www.kaggle.com/datasets/camnugent/california-housing-prices
 - Use formal F-tests for nested models, when appropriate.
 - Provide diagnostic plots for visual assessment.
 
-
+___________________
 ### Models Implemented
 - OLS Regression (Ordinary Least Squares): Baseline model.
 - Ridge Regression: L2 regularization for penalizing large coefficients.
 - Lasso Regression: L1 regularization for promoting sparsity in coefficients.
-
+___________________
 ### Results and Analysis
 1. Model Selection Summary
 - OLS Regression was chosen as the final model based on the lowest test RMSE (73,559.74) and balanced performance across complexity metrics.
@@ -63,7 +63,7 @@ https://www.kaggle.com/datasets/camnugent/california-housing-prices
 - BIC: 398,539.70
 - Adjusted R^2 : 0.57
 - RMSE: 73,559.74
-
+___________________
 
 ### Technologies Used
 Python Libraries:
