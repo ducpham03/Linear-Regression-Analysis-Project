@@ -1,4 +1,4 @@
-# Linear Regression Analysis Project: Housing Prices Prediction
+# Linear Regression Project: Housing Prices Prediction
 
 
 ## Overview
