@@ -10,12 +10,16 @@ The function will take a predictor matrix (or data frame) **_X_** and a continuo
 - Fit a parsimonious explanatory model that balances explanation and prediction
 ___________________
 
-Dataset
+### Dataset
 The dataset used in this project is from Kaggle's California Housing Prices dataset. It contains various housing features across districts in California, including attributes like median income, housing age, and proximity to the ocean.
 
 
-
 Dataset Source: Kaggle - California Housing Prices
+
+https://www.kaggle.com/datasets/camnugent/california-housing-prices
+
+
+
 Objectives
 Data Preprocessing
 
