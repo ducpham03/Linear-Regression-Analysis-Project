@@ -76,13 +76,16 @@ Python Libraries:
 
 
 __________________
-Explanatory Plots
-Leverage Values: Identifies high-leverage points.
-Cook's Distance vs. Leverage: Visualizes influential points.
-Residuals Distribution: Tests for normality of residuals.
-Q-Q Plot of Residuals: Assesses normality of residuals.
-Residuals vs. Predicted Values: Visualizes homoscedasticity.
-Instructions to Run the Project
+
+### Explanatory Plots
+- Leverage Values: Identifies high-leverage points.
+- Cook's Distance vs. Leverage: Visualizes influential points.
+- Residuals Distribution: Tests for normality of residuals.
+- Q-Q Plot of Residuals: Assesses normality of residuals.
+- Residuals vs. Predicted Values: Visualizes homoscedasticity.
+
+
+nstructions to Run the Project
 Clone the repository to your local machine.
 Install the required dependencies:
 bash
