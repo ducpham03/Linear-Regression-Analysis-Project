@@ -1,4 +1,4 @@
-# Linear Regression Analysis Project: California Housing Prices Prediction
+# Linear Regression Analysis Project: Housing Prices Prediction
 
 
 ## Overview
@@ -20,73 +20,62 @@ https://www.kaggle.com/datasets/camnugent/california-housing-prices
 
 
 
-Objectives
-Data Preprocessing
+### Objectives
+1. Data Preprocessing
+- Handle missing data through imputation or removal.
+- Detect and remove outliers and influential points.
+- Scale features for model training.
 
-Handle missing data through imputation or removal.
-Detect and remove outliers and influential points.
-Scale features for model training.
-Model Development
+2. Model Development
+- Implement and compare Lasso, Ridge, and OLS regression models.
+- Use cross-validation and grid search for hyperparameter tuning where applicable.
+- Fit a parsimonious model for explanatory purposes or a predictive model, based on user preference.
 
-Implement and compare Lasso, Ridge, and OLS regression models.
-Use cross-validation and grid search for hyperparameter tuning where applicable.
-Fit a parsimonious model for explanatory purposes or a predictive model, based on user preference.
-Model Diagnostics and Evaluation
+3. Model Diagnostics and Evaluation
+- Evaluate model performance using various metrics such as RMSE, AIC, BIC, and Adjusted R^2.
+- Perform hypothesis tests for normality, homoscedasticity, and linearity.
+- Check for outliers, influential points, and high-leverage points using appropriate plots (e.g., leverage vs. Cook’s distance).
+- Assess if any transformation is needed on the response variable **_y_**
 
-Evaluate model performance using various metrics such as RMSE, AIC, BIC, and Adjusted 
-𝑅
-2
-R 
-2
- .
-Perform hypothesis tests for normality, homoscedasticity, and linearity.
-Check for outliers, influential points, and high-leverage points using appropriate plots (e.g., leverage vs. Cook’s distance).
-Assess if any transformation is needed on the response variable 
-𝑦
-y.
-Model Selection
+4. Model Selection
+- Perform model selection based on performance metrics, including MSE, AIC, BIC, Mallow’s Cp, and Adjusted R^2.
+- Use formal F-tests for nested models, when appropriate.
+- Provide diagnostic plots for visual assessment.
 
-Perform model selection based on performance metrics, including MSE, AIC, BIC, Mallow’s Cp, and Adjusted 
-𝑅
-2
-R 
-2
- .
-Use formal F-tests for nested models, when appropriate.
-Provide diagnostic plots for visual assessment.
-Models Implemented
-OLS Regression (Ordinary Least Squares): Baseline model.
-Ridge Regression: L2 regularization for penalizing large coefficients.
-Lasso Regression: L1 regularization for promoting sparsity in coefficients.
-Results and Analysis
-Model Selection Summary
 
-OLS Regression was chosen as the final model based on the lowest test RMSE (73,559.74) and balanced performance across complexity metrics.
-Ridge and Lasso models were compared but did not outperform OLS in terms of test error and explained variance.
-Diagnostics
+### Models Implemented
+- OLS Regression (Ordinary Least Squares): Baseline model.
+- Ridge Regression: L2 regularization for penalizing large coefficients.
+- Lasso Regression: L1 regularization for promoting sparsity in coefficients.
 
-Normality of Residuals: Residuals were tested and found to deviate from normality.
-Homoscedasticity: Breusch-Pagan test revealed heteroscedasticity in residuals.
-Outliers and Influential Points: Leverage plots and Cook’s Distance identified influential data points.
-Model Evaluation
+### Results and Analysis
+1. Model Selection Summary
+- OLS Regression was chosen as the final model based on the lowest test RMSE (73,559.74) and balanced performance across complexity metrics.
+- Ridge and Lasso models were compared but did not outperform OLS in terms of test error and explained variance.
 
-AIC: 398,486.02
-BIC: 398,539.70
-Adjusted 
-𝑅
-2
-R 
-2
- : 0.57
-RMSE: 73,559.74
-Technologies Used
+2. Diagnostics
+- Normality of Residuals: Residuals were tested and found to deviate from normality.
+- Homoscedasticity: Breusch-Pagan test revealed heteroscedasticity in residuals.
+- Outliers and Influential Points: Leverage plots and Cook’s Distance identified influential data points.
+
+3. Model Evaluation
+- AIC: 398,486.02
+- BIC: 398,539.70
+- Adjusted R^2 : 0.57
+- RMSE: 73,559.74
+
+
+### Technologies Used
 Python Libraries:
-Pandas
-Numpy
-Scikit-learn
-Statsmodels
-Matplotlib
-Seaborn
+- Pandas
+- Numpy
+- Scikit-learn
+- Statsmodels
+- Matplotlib
+- Seaborn
+
+
+__________________
 Explanatory Plots
 Leverage Values: Identifies high-leverage points.
 Cook's Distance vs. Leverage: Visualizes influential points.
