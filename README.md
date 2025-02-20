@@ -85,21 +85,8 @@ __________________
 - Residuals vs. Predicted Values: Visualizes homoscedasticity.
 
 
-nstructions to Run the Project
-Clone the repository to your local machine.
-Install the required dependencies:
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Download the dataset from Kaggle.
-Run the main.py script to execute the analysis and generate results.
-Conclusion
-The final model selected, OLS Regression, demonstrated the best trade-off between complexity and predictive power.
-The diagnostics and performance evaluation suggest further refinement of the model by considering potential transformations of the response variable 
-𝑦
-y and improving homoscedasticity.
-Future Improvements
-Experiment with additional regression models such as ElasticNet.
-Explore feature engineering techniques to improve predictive performance.
-Implement more advanced transformations and feature selection methods.
+__________________
+### Conclusion
+- The final model selected, OLS Regression, demonstrated the best trade-off between complexity and predictive power.
+- The diagnostics and performance evaluation suggest further refinement of the model by considering potential transformations of the response variable **_y_** and improving homoscedasticity.
+
